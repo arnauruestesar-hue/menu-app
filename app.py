@@ -6,7 +6,7 @@ import os
 
 # --- CONFIGURACIÓ DE L'API ---
 # Introdueix la teva API Key de Gemini aquí o configura-la com a variable d'entorn
-GEMINI_API_KEY = "AIzaSyDyCg4-gaxm0dS-EFsbHsJAo1KYLvyldXU" 
+GEMINI_API_KEY =st.secrets["AIzaSyCg0vWXdDs1Em8lh4YfeVQ18TalsbUduvI"]
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # --- PAS 5: LECTURA DEL CSV DE PREUS ---
